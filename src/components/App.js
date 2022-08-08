@@ -2,7 +2,7 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import unsplash from "../api/unsplash";
 import ImageList from "./ImageList";
-import "./ImageList.css";
+
 class App extends React.Component {
   state = { images: [] };
   onSeachSubmit = async (term) => {
